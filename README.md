@@ -1,10 +1,12 @@
 # Kalkulator
 
-### A simple calcultor app for Android built with Kotlin.
+### A simple calculator app for Android built with Kotlin.
 
 ## How to use?
 
 ## TO DO:
 - Finish UI
     - Button animations
-    - Button colors
+    - Text color
+- Implement calculator functionalities
+- Write How to use? section.
