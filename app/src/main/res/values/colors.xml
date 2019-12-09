@@ -5,7 +5,10 @@
     <color name="colorAccent">#D81B60</color>
     <color name="colorBackground">#375B77</color>
     <color name="colorBackgroundButton">#456774</color>
+    <color name="colorBackgroundButtonPress">#689FB1</color>
     <color name="colorBackgroundButtonMain">#97664C</color>
+    <color name="colorBackgroundButtonMainPress">#CC8966</color>
     <color name="colorBackgroundButtonOperation">#698555</color>
+    <color name="colorBackgroundButtonOperationPress">#9CC780</color>
     <color name="colorTextLight">#DDF5FD</color>
 </resources>
