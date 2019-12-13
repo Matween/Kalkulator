@@ -2,7 +2,7 @@
 
 ### A simple calculator app for Android built with Kotlin.
 
-![App screenshot](https://github.com/TyzeB/Kalkulator/blob/master/screenshot.jpg)
+<img src="https://github.com/TyzeB/Kalkulator/blob/master/screenshot.jpg" width="250">
 
 ## How to use?
 
