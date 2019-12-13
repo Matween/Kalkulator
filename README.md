@@ -11,6 +11,14 @@
     - ~~Button animations~~
     - ~~Text color~~
     - ~~Bigger text~~
-    - Button '=' needs more visible animation
+    - ~~Button '=' needs more visible animation~~
+    - ~~Make animations more visisble~~
 - Implement calculator functionalities
+    - ~~Implement del button functionality~~
+    - Plus
+    - Minus
+    - Divide
+    - Multiply
+    - Equals
+    - Proper operation order when calculating
 - Write How to use? section.
