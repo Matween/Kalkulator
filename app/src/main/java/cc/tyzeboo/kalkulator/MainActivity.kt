@@ -6,7 +6,7 @@ import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_main.*
-import java.security.acl.LastOwnerException
+import java.util.regex.Pattern
 
 class MainActivity : AppCompatActivity() {
 
@@ -65,13 +65,13 @@ class MainActivity : AppCompatActivity() {
                 "×" -> {
 
                 }
-                "" -> {
-
+                "." -> {
+                    if (textHistory.text.contains('.').not()) {
+                        lastInput(button, sb)
+                    }
                 }
                 else -> {
-                    lastNumInput = button.text.toString()
-                    sb.append(textHistory.text.toString()).append(lastNumInput)
-                    textHistory.text = sb.toString()
+                    lastInput(button, sb)
                 }
             }
 
@@ -86,5 +86,11 @@ class MainActivity : AppCompatActivity() {
         }
         Log.v("after", currentTxt)
         return backspaceTxt
+    }
+
+    private fun lastInput(button: Button, sb: StringBuilder) {
+        lastNumInput = button.text.toString()
+        sb.append(textHistory.text.toString()).append(lastNumInput)
+        textHistory.text = sb.toString()
     }
 }
